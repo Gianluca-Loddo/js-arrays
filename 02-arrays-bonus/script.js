@@ -20,7 +20,7 @@ const reversedTeachers = teachers.reverse();
 
 /* const reversedTeachers = []; // creiamo un nuovo array
 for (let i = teachers.length - 1; i >= 0; i--) {
-  const teacher = teachers[i]; // recuperiamo il teacher in posizione i
+  const teacher = teachers[i]; // recuperiamo il teacher in posizione i (creazione di un ciclo che parte dall'ultimo elemento creando la nuova variabile teacher)
   console.log(teacher);        // stampiamo a video
   reversedTeachers.push(teacher); // lo aggiungiamo al nuovo array
 }
